@@ -1,9 +1,7 @@
 :root {
   /* Colors */
-  --bitcoin-orange: #f7931a;
-  --soft-orange: #ffe9d5;
-  --secondary-blue: #1a9af7;
-  --soft-blue: #e7f5ff;
+  --hard-blue: #19a7bb;
+  --soft-blue: #c6e0f5;
   --warm-black: #282623;
   --black: #201e1c;
   --off-white: #faf8f7;
@@ -28,4 +26,53 @@ main {
 
 .card-container {
   border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.inner-card {
+  margin: 2rem 0;
+  border: solid var(--black);
+  border-width: 2.25rem 2rem 0.5ex;
+  border-radius: 1rem;
+  width: 70%;
+  background-color: var(--soft-blue);
+  display: flex;
+  flex-direction: column;
+}
+
+.inner-card div {
+  padding: 0.5rem;
+}
+
+.inner-card__title {
+  font-size: 1.6rem;
+}
+
+.inner-card__category {
+  background-color: var(--hard-blue);
+  color: var(--just-white);
+  letter-spacing: 0.2rem;
+  width: 100%;
+  padding: 1rem;
+}
+
+.inner-card__tag {
+  border-bottom: 1px solid var(--warm-black);
+}
+
+.inner-card__product-highlits,
+.inner-card__footer {
+  display: flex;
+  border: 1px solid var(--black);
+}
+
+div.inner-card__product-highlits {
+  padding: 0;
+}
+
+.inner-card__description {
+  border-right: 1px solid var(--black);
 }
