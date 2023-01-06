@@ -215,4 +215,60 @@ h2 {
   width: 20rem;
   height: 7rem;
   font-size: 2.4rem;
+  color: var(--just-white);
+}
+
+#blue-btn {
+  background-color: var(--hard-blue);
+  border: 0.3rem solid var(--hard-blue);
+}
+
+#blue-btn:hover {
+  background-color: transparent;
+  border: 0.3rem solid var(--hard-blue);
+  color: var(--hard-blue);
+}
+
+#orange-btn {
+  background-color: var(--hard-orange);
+  border: 0.3rem solid var(--hard-orange);
+}
+
+#orange-btn:hover {
+  background-color: transparent;
+  border: 0.3rem solid var(--hard-orange);
+  color: var(--hard-orange);
+}
+
+#green-btn {
+  background-color: var(--hard-green);
+  border: 0.3rem solid var(--hard-green);
+}
+
+#green-btn:hover {
+  background-color: transparent;
+  border: 0.3rem solid var(--hard-green);
+  color: var(--hard-green);
+}
+
+#purple-btn {
+  background-color: var(--hard-purple);
+  border: 0.3rem solid var(--hard-purple);
+}
+
+#purple-btn:hover {
+  background-color: transparent;
+  border: 0.3rem solid var(--hard-purple);
+  color: var(--hard-purple);
+}
+
+#remove-btn {
+  background-color: var(--off-grey);
+  border: 0.3rem solid var(--off-grey);
+}
+
+#remove-btn:hover {
+  background-color: transparent;
+  border: 0.3rem solid var(--grey);
+  color: var(--grey);
 }
