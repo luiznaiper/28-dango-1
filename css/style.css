@@ -199,3 +199,20 @@ h2 {
 .purple .inner-card__category {
   background-color: var(--hard-purple);
 }
+
+.buttons-js__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.button-js__container {
+  margin-bottom: 2rem;
+}
+
+.button-js__container button {
+  width: 20rem;
+  height: 7rem;
+  font-size: 2.4rem;
+}
