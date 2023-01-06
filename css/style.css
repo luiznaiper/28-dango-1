@@ -2,6 +2,12 @@
   /* Colors */
   --hard-blue: #19a7bb;
   --soft-blue: #c6e0f5;
+  --hard-orange: #f79325;
+  --soft-orange: #faf9ec;
+  --hard-green: #75bf44;
+  --soft-green: #b8dba5;
+  --hard-purple: #cbafd4;
+  --soft-purple: #ebd9e6;
   --black: #201e1c;
   --off-grey: #3f3f3f;
   --just-white: #fff;
@@ -32,11 +38,11 @@ main {
   align-items: center;
   width: 22.5rem;
   margin-bottom: 3rem;
-  height: 55rem;
+  height: 50rem;
 }
 
 .inner-card {
-  margin: 2rem 0;
+  margin: 1.5rem 0;
   border: solid var(--black);
   border-width: 2rem 1.5rem 0.25rem;
   border-radius: 1rem;
@@ -95,7 +101,7 @@ div.inner-card__product-highlits {
   width: 4rem;
   position: absolute;
   bottom: -0.5rem;
-  left: 10rem;
+  left: 10.5rem;
 }
 
 div.inner-card__footer {
@@ -120,7 +126,7 @@ div.inner-card__footer {
 
 h2 {
   text-align: left;
-  font-size: 2rem;
+  font-size: 1.85rem;
 }
 
 .product-price-stock {
@@ -167,5 +173,29 @@ h2 {
 
 .buttons-container a:nth-child(2) {
   text-decoration: underline;
-  margin-bottom: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+#orange .inner-card {
+  background-color: var(--soft-orange);
+}
+
+#orange .inner-card__category {
+  background-color: var(--hard-orange);
+}
+
+#green .inner-card {
+  background-color: var(--soft-green);
+}
+
+#green .inner-card__category {
+  background-color: var(--hard-green);
+}
+
+#purple .inner-card {
+  background-color: var(--soft-purple);
+}
+
+#purple .inner-card__category {
+  background-color: var(--hard-purple);
 }
