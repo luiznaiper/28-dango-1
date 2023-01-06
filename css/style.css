@@ -176,26 +176,26 @@ h2 {
   margin-bottom: 1rem;
 }
 
-#orange .inner-card {
+.orange .inner-card {
   background-color: var(--soft-orange);
 }
 
-#orange .inner-card__category {
+.orange .inner-card__category {
   background-color: var(--hard-orange);
 }
 
-#green .inner-card {
+.green .inner-card {
   background-color: var(--soft-green);
 }
 
-#green .inner-card__category {
+.green .inner-card__category {
   background-color: var(--hard-green);
 }
 
-#purple .inner-card {
+.purple .inner-card {
   background-color: var(--soft-purple);
 }
 
-#purple .inner-card__category {
+.purple .inner-card__category {
   background-color: var(--hard-purple);
 }
