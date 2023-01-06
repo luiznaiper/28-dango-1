@@ -30,26 +30,28 @@ main {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 30rem;
+  width: 22.5rem;
+  margin-bottom: 3rem;
+  height: 55rem;
 }
 
 .inner-card {
-  margin: 4rem 0;
+  margin: 2rem 0;
   border: solid var(--black);
-  border-width: 2.25rem 2rem 0.5ex;
+  border-width: 2rem 1.5rem 0.25rem;
   border-radius: 1rem;
-  width: 25rem;
+  width: 17.5rem;
   background-color: var(--soft-blue);
   display: flex;
   flex-direction: column;
 }
 
 .inner-card div {
-  padding: 0.5rem;
+  padding: 0.25rem;
 }
 
 .inner-card__title {
-  font-size: 1.6rem;
+  font-size: 1.3rem;
   letter-spacing: 0.1rem;
 }
 
@@ -57,6 +59,7 @@ main {
   background-color: var(--hard-blue);
   color: var(--just-white);
   letter-spacing: 0.2rem;
+  font-size: 0.8rem;
   width: 100%;
   padding: 1rem;
 }
@@ -79,7 +82,8 @@ div.inner-card__product-highlits {
 .inner-card__description {
   border-right: 1px solid var(--black);
   font-weight: bold;
-  width: 65%;
+  width: 75%;
+  font-size: 0.85rem;
 }
 .inner-card__description span {
   font-weight: 300;
@@ -88,10 +92,10 @@ div.inner-card__product-highlits {
 }
 
 .inner-card__logo img {
-  width: 6rem;
+  width: 4rem;
   position: absolute;
   bottom: -0.5rem;
-  left: 15rem;
+  left: 10rem;
 }
 
 div.inner-card__footer {
@@ -116,7 +120,7 @@ div.inner-card__footer {
 
 h2 {
   text-align: left;
-  font-size: 2.4rem;
+  font-size: 2rem;
 }
 
 .product-price-stock {
@@ -128,19 +132,20 @@ h2 {
 
 .price {
   font-weight: bold;
-  font-size: 2.4rem;
+  font-size: 2rem;
   margin-right: 1rem;
 }
 
 .stock {
   border: 1px solid var(--grey);
   color: gray;
-  padding: 0.5rem 1.75rem;
-  font-size: 1.6rem;
+  padding: 0.25rem 1.5rem;
+  font-size: 1.4rem;
 }
 
 .product-description p {
-  font-size: 1.8rem;
+  font-size: 1.4rem;
+  font-family: Arial, Helvetica, sans-serif;
   color: var(--grey);
 }
 
@@ -149,7 +154,7 @@ h2 {
   flex-direction: column;
   align-items: center;
   margin: 2rem 0;
-  font-size: 2.4rem;
+  font-size: 2rem;
   letter-spacing: 0.1rem;
 }
 
@@ -162,5 +167,5 @@ h2 {
 
 .buttons-container a:nth-child(2) {
   text-decoration: underline;
-  margin-bottom: 4rem;
+  margin-bottom: 2.5rem;
 }
